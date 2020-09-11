@@ -143,3 +143,7 @@ end
      team_data[:players].each do |player|
        if player[:player_name] == player_name
          return player[:shoe]
+       end
+     end
+     end
+     end
