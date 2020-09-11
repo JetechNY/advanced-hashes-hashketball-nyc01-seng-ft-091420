@@ -169,7 +169,7 @@ def player_numbers(team_name)
       team_data.each do |k,v|
         if k == :player
           v.each do |player|
-            nums.push(player[:number])
+            nums << (player[:number])
         end
       end
     end
