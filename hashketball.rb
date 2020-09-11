@@ -142,7 +142,7 @@ def num_points_scored(player_name)
     #   #what is 'data' at each loop throughout .each block? when will the following line of code work and when will it break?
     #   data.each do |data_item|
     #       binding.pry
-      end
-    end
+    #   end
+    # end
   end
 end
